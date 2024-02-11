@@ -1,6 +1,6 @@
 # How to setup virtual environment
 
-Hi! This is a document file for creating a virtual environment in Python. Below are the steps alongside explanations.
+Hi! This is a document file for creating a virtual environment in Python. Below are the steps and instructions.
 
 ## 1. Run `python -m venv <name_of_environment>` in a terminal.
 
@@ -22,6 +22,20 @@ For Command Prompt, enter `env\Scripts\activate.bat`.
 
 For Windows Powershell, enter `env\Scripts\Activate.ps1`.
 
-And now your virtual environment is set! Go ahead and keep those programs runnin!
+And now your virtual environment is set! Go ahead and keep those programs runnin' (in a safe environment)!
 
 > To deactivate virtual environment, enter `deactivate` command in your terminal.
+
+## 4: Install packages.
+
+After starting your virtual environment, you may want to install useful Python packages for your project or programs.
+
+To do this you may do the following:
+
+### 1. Create `requirements.txt` file.
+
+Create `requirements.txt` file in main directory and input name of packages that you would like to install or include in the virtual environment (e.g. pandas, requests).
+
+### 2. Run `pip install -r requirements.txt`
+
+The command above installs the packages indicated in `requirements.txt`. This will help you install multiple packages in a single command.
