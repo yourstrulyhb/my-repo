@@ -20,8 +20,8 @@ Inside env\Scripts directory are the activation files to start the virtual envir
 
 For Command Prompt, enter `env\Scripts\activate.bat`.
 
-For Windows Powershell, enter `env\Scripts\Activate.ps1`
+For Windows Powershell, enter `env\Scripts\Activate.ps1`.
 
 And now your virtual environment is set! Go ahead and keep those programs runnin!
 
-> To deactivate virtual environemnt, enter `deactivate` command in your terminal.
+> To deactivate virtual environment, enter `deactivate` command in your terminal.
